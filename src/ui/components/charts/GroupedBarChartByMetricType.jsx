@@ -19,7 +19,7 @@ const GroupedBarChartByMetricType = ({data}) => {
     data.forEach(e => {
         const model = e.model_name;
 
-        //ako prv pat se pojavuva toj model
+
         if(!modelStats[model]){
             modelStats[model] = {
                 positive: {total:0, count:0},

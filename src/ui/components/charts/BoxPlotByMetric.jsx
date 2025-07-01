@@ -7,8 +7,7 @@ const colors = [
 
 const BoxPlotByMetric = ({selectedMetric, data}) => {
 
-    // Grupirame metriki spored model
-    // model_name : values
+
     const modelToValues = {};
 
     data.forEach(e => {

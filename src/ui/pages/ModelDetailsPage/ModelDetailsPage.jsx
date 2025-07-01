@@ -64,7 +64,6 @@ const ModelDetailsPage = () => {
     const handleAskQuestion = () => {
         setLoadingAnswer(true);
 
-        // simulate thinking
         setTimeout(() => {
             setLoadingAnswer(false);
 

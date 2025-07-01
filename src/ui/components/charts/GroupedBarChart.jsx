@@ -7,7 +7,7 @@ import {
 } from 'recharts';
 
 const getColor = (id) => {
-    // const colors = ['#ef476f', '#f2ea9d', '#95f0ea', '#94d2bd', '#f2b3c3' ,'#fcd5ce'];
+
     const colors = [
         '#4e79a7', // blue
         '#f28e2b', // orange
@@ -23,12 +23,10 @@ const getColor = (id) => {
 
 const GroupedBarChart = ({selectedField, selectedMetric, data, domains}) => {
 
-    //mapiranje na selectedField.value so fieldId vo questions
-    //gi cuva site prasanja od toj izbran field
+
     const questionsForField = questions.filter(q => q.field_id === selectedField);
 
-    // mapiranje na prasanjata so domain na koj se odnesuvaat
-    // set od: question_id → domain_id   Q9 = D6
+
     const questionIdToDomainId = questionsForField.reduce((acc, q) => {
         acc[q.question_id] = q.domain_id; //
         return acc;
@@ -38,16 +36,13 @@ const GroupedBarChart = ({selectedField, selectedMetric, data, domains}) => {
 
     domains.forEach(d => {
         domainIdToLabel[d.value] = d.label;
-        //D6 = Imeto na domain
     });
 
 
-    //zemanje na evaluaciite so gi sodrzat odbranite prasanja
     const allowedQuestionIds = Object.keys(questionIdToDomainId);
     const evaluationsForField = data.filter(e => allowedQuestionIds.includes(e.question_id));
     console.log("evaluationsForField", evaluationsForField);
 
-    //mapa od model name : release date
     const modelAndDate = models.reduce((acc, m) => {
         acc[m.model_name] = m.release_date;
         return acc;

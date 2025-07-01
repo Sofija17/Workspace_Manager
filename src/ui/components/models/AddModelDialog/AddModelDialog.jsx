@@ -28,17 +28,7 @@ const AddModelDialog = ({ open, onClose, addModelToWorkspace, workspaceId, userI
     };
 
     const handleSubmit = () => {
-        // console.log("SUBMIT DEBUG:", {
-        //     workspaceId,
-        //     modelName: formData.name,
-        //     userId,
-        //     options: {
-        //         description: formData.description,
-        //         architecture: formData.architecture,
-        //         visible: formData.visible,
-        //         metrics: formData.metrics
-        //     }
-        // });
+
 
         addModelToWorkspace(
             formData.model_name,
@@ -48,7 +38,6 @@ const AddModelDialog = ({ open, onClose, addModelToWorkspace, workspaceId, userI
             }
         );
 
-        // console.log(formData.name);
 
         setFormData(initialFormData);
         onClose();

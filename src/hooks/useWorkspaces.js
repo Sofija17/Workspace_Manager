@@ -9,7 +9,7 @@ const initialState = {
 const useWorkspaces = (userId) => {
     const [state, setState] = useState(initialState);
 
-    // Load workspaces for a given user
+
     const fetchWorkspacesByUser = useCallback(() => {
         setState(initialState);
         workspaceRepository
@@ -26,7 +26,7 @@ const useWorkspaces = (userId) => {
             });
     }, [userId]);
 
-    // Create new workspace and refresh
+
     const createWorkspace = useCallback(
         (name, members, userId) => {
             workspaceRepository
@@ -39,12 +39,9 @@ const useWorkspaces = (userId) => {
         },
         [userId, fetchWorkspacesByUser]
 
-    // That userId comes from the outer scope (not passed as a parameter). If the user changes, and you don’t include userId in the dependency array,
-        // React will keep using the old userId from when the callback was first created — which is a bug.
-        //     This is known as a stale closure.
     );
 
-    // Invite a user and refresh list
+
     const inviteUser = useCallback(
         (workspaceId, invitedUserId) => {
             workspaceRepository
@@ -69,7 +66,7 @@ const useWorkspaces = (userId) => {
         }, [fetchWorkspacesByUser]
     );
 
-    // Fetch when userId is available or changes
+
     useEffect(() => {
         if (userId) {
             fetchWorkspacesByUser();

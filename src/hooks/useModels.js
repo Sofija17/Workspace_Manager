@@ -9,7 +9,7 @@ const initialState = {
 const useModels = (workspaceId) => {
     const [models, setModels] = useState(initialState);
 
-    // Load models for a given workspace
+
     const fetchModelsByWorkspace = useCallback(() => {
         setModels(initialState);
         modelsRepository
@@ -27,7 +27,7 @@ const useModels = (workspaceId) => {
     }, [workspaceId]);
 
 
-    // Add model
+
     const addModel = useCallback((model_name, userId, options = {}) => {
         modelsRepository
             .addModel(workspaceId, model_name, userId, options)
@@ -38,7 +38,7 @@ const useModels = (workspaceId) => {
             .catch((error) => console.error("Error adding model:", error));
     }, [workspaceId, fetchModelsByWorkspace]);
 
-  //Delete
+
     const deleteModel= useCallback((modelId) => {
         modelsRepository
             .deleteModel(modelId)
@@ -46,11 +46,11 @@ const useModels = (workspaceId) => {
                 console.log("Model deleted")
                 fetchModelsByWorkspace()
             })
-            .catch((error) => console.log(eror))
+            .catch((error) => console.log(error))
     }, [fetchModelsByWorkspace])
 
 
-    // Fetch models when workspaceId changes
+
     useEffect(() => {
         if (workspaceId) {
             fetchModelsByWorkspace();

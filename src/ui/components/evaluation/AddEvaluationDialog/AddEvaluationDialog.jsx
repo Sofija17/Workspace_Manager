@@ -42,7 +42,6 @@ const AddEvaluationDialog = ({open, onClose, saveEval}) => {
 
 
     const handleSubmit = () => {
-        // povikaj metod od hook preky prop
         saveEval(formData)
         onClose();
         console.log("Form data saved:", formData);

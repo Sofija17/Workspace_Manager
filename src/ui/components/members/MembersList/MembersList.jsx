@@ -47,11 +47,11 @@ const MembersList = ({ memberIds, users, onRemove, reportOn, modelId }) => {
                                 variant="outlined"
                                 size="small"
                                 sx={{
-                                    borderColor: "#6d2e46",          // outline border
-                                    color: "#6d2e46",                // text color
+                                    borderColor: "#6d2e46",
+                                    color: "#6d2e46",
                                     '&:hover': {
                                         borderColor: "#a26769",
-                                        backgroundColor: 'rgba(162, 103, 105, 0.1)', // matching hover tint
+                                        backgroundColor: 'rgba(162, 103, 105, 0.1)',
                                     },
                                 }}
                             >

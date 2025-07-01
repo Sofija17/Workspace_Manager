@@ -28,11 +28,11 @@ const ModelStatisticsByWorkspace = ({workspaceId}) => {
 
     const filteredEvaluations = useEvaluationsByWorkspace(workspaceId);
 
-    // Extract metric keys
+
     const allMetricsKeys = filteredEvaluations.length > 0 ? Object.keys(filteredEvaluations[0]) : [];
     const metricKeys = allMetricsKeys.filter(k => !EXCLUDED_KEYS.includes(k));
 
-    //Extract fields
+
     const fieldIdMapByWorkspace = {
         ws_001: ["F1", "F2", "F3", "F4"],
         ws_002: ["F5", "F6", "F7", "F8"]

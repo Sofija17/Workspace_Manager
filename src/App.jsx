@@ -19,7 +19,6 @@ const App = () => {
                     <Route path="/workspaces/:id" element={<WorkspaceDetailsPage/>} />
                     <Route path="/models/:id" element={<ModelDetailsPage />} />
                     <Route path="/report/:userId/:modelId" element={<ReportDetailsPage/>}/>
-
                     <Route path="/model/statistics" element={<ModelStatisticsByWorkspace/>}/>
                 </Route>
             </Routes>

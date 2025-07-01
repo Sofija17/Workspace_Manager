@@ -77,7 +77,7 @@ const ModelCard = ({model, onDelete}) => {
                 <CloseIcon fontSize="small" />
             </IconButton>
 
-            {/* Header Row */}
+
             <Stack direction="row" justifyContent="space-between" alignItems="center">
                 <Stack direction="row" alignItems="center" gap={1}>
                     <ModelTrainingIcon fontSize="small"/>

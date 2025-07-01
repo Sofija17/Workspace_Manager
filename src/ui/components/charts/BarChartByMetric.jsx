@@ -12,31 +12,21 @@ import {
 
 
 const BarChartByMetric = ({selectedMetric, data}) => {
-    //da prikazhe average metric za sekoj model razlichen bar
-    // data = {
-    //     model: ""
-    //     metric_avg: ""
-    // }
-
-    //od sekoja evaluacija da go zemam model name i vrednosta za izbranata metrika
     const modelMetricMap = {};
 
     data.forEach(e => {
         const model = e.model_name;
         const metric = e[selectedMetric]
 
-        if (!modelMetricMap[model]) { //inicijalizaci
+        if (!modelMetricMap[model]) {
             modelMetricMap[model] = {total: 0, count: 0}
         }
-        //  Gemini: { total: 8.0, count: 2 },
 
         modelMetricMap[model].total += metric;
         modelMetricMap[model].count += 1;
     })
 
     const chartData = Object.entries(modelMetricMap).map(([model, {total, count}]) => ({
-        // object entries:  ["Gemini", { total: 8.0, count: 2 }],
-        //.map():  { model: "Gemini", value: 4.00 },
         model,
         value: +(total / count).toFixed(2),
     }));
