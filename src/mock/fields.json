@@ -1,0 +1,11 @@
+[
+  { "field_id": "F1", "field_text": "Diagnostic evaluation" },
+  { "field_id": "F2", "field_text": "Treatment" },
+  { "field_id": "F3", "field_text": "Clinical aspects" },
+  { "field_id": "F4", "field_text": "Special situations" },
+
+  { "field_id": "F5", "field_text": "Structural Design" },
+  { "field_id": "F6", "field_text": "Geotechnical Engineering" },
+  { "field_id": "F7", "field_text": "Transportation Systems" },
+  { "field_id": "F8", "field_text": "Construction Management" }
+]

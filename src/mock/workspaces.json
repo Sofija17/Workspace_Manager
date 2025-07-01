@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ws_001",
+    "name": "MediEval",
+    "created_by_user_id": "user_1",
+    "members": ["user_1", "user_2", "user_3",  "user_4", "user_5", "user_6"],
+    "description": "MediEval is a dedicated workspace for systematically assessing the performance of large language models (LLMs) in healthcare-related tasks. From clinical reasoning to ethical sensitivity, this environment enables in-depth benchmarking across key medical domains and use cases."
+  },
+  {
+    "id": "ws_002",
+    "name": "InfraThink",
+    "created_by_user_id": "user_1",
+    "members": ["user_1","user_2", "user_4", "user_5", "user_6"],
+    "description": "InfraThink is a specialized evaluation environment focused on civil engineering and infrastructure-related tasks. It challenges AI models with real-world scenarios in structural analysis, materials science, urban planning, and environmental impact. From calculating load distributions to reviewing blueprint accuracy and detecting flaws in design logic, this workspace ensures models are ready to assist engineers in building the world smarter, safer, and stronger."
+  }
+
+]

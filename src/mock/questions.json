@@ -1,0 +1,135 @@
+[
+  {
+    "question_id": "Q1",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D1",
+    "domain_text": "Clinical evaluation"
+  },
+  {
+    "question_id": "Q2",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D2",
+    "domain_text": "EEG"
+  },
+  {
+    "question_id": "Q3",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D3",
+    "domain_text": "Neuroimaging"
+  },
+  {
+    "question_id": "Q4",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D4",
+    "domain_text": "Neuropsychological"
+  },
+  {
+    "question_id": "Q5",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D1",
+    "domain_text": "Clinical evaluation"
+  },
+  {
+    "question_id": "Q6",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D2",
+    "domain_text": "EEG"
+  },
+  {
+    "question_id": "Q7",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D3",
+    "domain_text": "Neuroimaging"
+  },
+  {
+    "question_id": "Q8",
+    "field_id": "F1",
+    "field_text": "Diagnostic evaluation",
+    "domain_id": "D4",
+    "domain_text": "Neuropsychological"
+  },
+  {
+    "question_id": "Q9",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D5",
+    "domain_text": "Load Analysis & Safety Factors"
+  },
+  {
+    "question_id": "Q10",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D6",
+    "domain_text": "Soil Mechanics & Foundations"
+  },
+  {
+    "question_id": "Q11",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D7",
+    "domain_text": "Bridge & Highway Design"
+  },
+  {
+    "question_id": "Q12",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D8",
+    "domain_text": "Project Scheduling & Cost Estimation"
+  },
+  {
+    "question_id": "Q13",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D9",
+    "domain_text": "Environmental Impact Assessment"
+  },
+  {
+    "question_id": "Q14",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D10",
+    "domain_text": "Sustainable Infrastructure"
+  },
+  {
+    "question_id": "Q15",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D6",
+    "domain_text": "Soil Mechanics & Foundations"
+  },
+  {
+    "question_id": "Q16",
+    "field_id": "F5",
+    "field_text": "Structural Design",
+    "domain_id": "D7",
+    "domain_text": "Bridge & Highway Design"
+  },
+  {
+    "question_id": "Q17",
+    "field_id": "F6",
+    "field_text": "Geotechnical Engineering",
+    "domain_id": "D5",
+    "domain_text": "Load Analysis & Safety Factors"
+  },
+  {
+    "question_id": "Q18",
+    "field_id": "F6",
+    "field_text": "Geotechnical Engineering",
+    "domain_id": "D6",
+    "domain_text": "Soil Mechanics & Foundations"
+  },
+  {
+    "question_id": "Q19",
+    "field_id": "F6",
+    "field_text": "Geotechnical Engineering",
+    "domain_id": "D7",
+    "domain_text": "Bridge & Highway Design"
+  }
+]

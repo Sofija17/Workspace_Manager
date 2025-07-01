@@ -1,0 +1,194 @@
+[
+  {
+    "id": "model_1",
+    "workspace_id": "ws_001",
+    "model_name": "Gemini-2.0 Flash",
+    "release_date": "2024-10",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_2"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_2",
+    "workspace_id": "ws_001",
+    "model_name": "Gemma-3",
+    "release_date": "2024-11",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_2",
+      "user_3"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_3",
+    "workspace_id": "ws_001",
+    "model_name": "MedAlpaca-7B",
+    "release_date": "2024-12",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_4",
+      "user_3"
+    ],
+    "status": "failed",
+    "evaluation_progress": 60,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_4",
+    "workspace_id": "ws_001",
+    "model_name": "Claude-3.5-Sonnet",
+    "release_date": "2025-01",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_5",
+      "user_6",
+      "user_3"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_5",
+    "workspace_id": "ws_001",
+    "model_name": "Mistral-Nemo",
+    "release_date": "2025-02",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_3"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_6",
+    "workspace_id": "ws_001",
+    "model_name": "Llama-3.7B-Instruct",
+    "release_date": "2025-03",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_4",
+      "user_6"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_7",
+    "workspace_id": "ws_001",
+    "model_name": "DeepSeek-R1",
+    "release_date": "2025-04",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_4"
+    ],
+    "status": "in_progress",
+    "evaluation_progress": 86,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_8",
+    "workspace_id": "ws_001",
+    "model_name": "Gemini-Flash-2.0-Thinking",
+    "release_date": "2025-05",
+    "created_by": "user_1",
+    "evaluated_by": [
+      "user_1",
+      "user_6",
+      "user_3"
+    ],
+    "status": "in_progress",
+    "evaluation_progress": 70,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": "model_9",
+    "workspace_id": "ws_002",
+    "model_name": "StruCheck-1",
+    "release_date": "2024-09",
+    "created_by": "user_2",
+    "evaluated_by": [
+      "user_2",
+      "user_3"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "AI model specialized in analyzing structural safety based on load distribution and material strength."
+  },
+  {
+    "id": "model_10",
+    "workspace_id": "ws_002",
+    "model_name": "GeoPredictor-X",
+    "release_date": "2024-10",
+    "created_by": "user_2",
+    "evaluated_by": [
+      "user_2",
+      "user_5",
+      "user_6"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Predicts soil behavior under varying moisture conditions for foundation engineering tasks."
+  },
+  {
+    "id": "model_11",
+    "workspace_id": "ws_002",
+    "model_name": "InfraPlan-AI",
+    "release_date": "2024-12",
+    "created_by": "user_2",
+    "evaluated_by": [
+      "user_2",
+      "user_3",
+      "user_4"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Supports planning and cost estimation for infrastructure projects using historical data."
+  },
+  {
+    "id": "model_12",
+    "workspace_id": "ws_002",
+    "model_name": "BridgeBrain",
+    "release_date": "2025-01",
+    "created_by": "user_2",
+    "evaluated_by": [
+      "user_2",
+      "user_3"
+    ],
+    "status": "completed",
+    "evaluation_progress": 100,
+    "description": "Analyzes bridge designs for compliance with safety codes and fatigue resilience."
+  },
+  {
+    "id": "model_13",
+    "workspace_id": "ws_002",
+    "model_name": "EcoStruct-GPT",
+    "release_date": "2025-02",
+    "created_by": "user_2",
+    "evaluated_by": [
+      "user_2",
+      "user_3",
+      "user_4",
+      "user_5"
+    ],
+    "status": "in_progress",
+    "evaluation_progress": 60,
+    "description": "Assesses environmental impact and sustainability aspects of civil engineering projects."
+  }
+]

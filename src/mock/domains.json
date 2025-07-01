@@ -1,0 +1,13 @@
+[
+  { "domain_id": "D1", "domain_text": "Clinical evaluation" },
+  { "domain_id": "D2", "domain_text": "EEG" },
+  { "domain_id": "D3", "domain_text": "Neuroimaging" },
+  { "domain_id": "D4", "domain_text": "Neuropsychological" },
+
+  { "domain_id": "D5", "domain_text": "Load Analysis & Safety Factors" },
+  { "domain_id": "D6", "domain_text": "Soil Mechanics & Foundations" },
+  { "domain_id": "D7", "domain_text": "Bridge & Highway Design" },
+  { "domain_id": "D8", "domain_text": "Project Scheduling & Cost Estimation" },
+  { "domain_id": "D9", "domain_text": "Environmental Impact Assessment" },
+  { "domain_id": "D10", "domain_text": "Sustainable Infrastructure" }
+]
