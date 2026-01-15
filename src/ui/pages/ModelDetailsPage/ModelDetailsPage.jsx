@@ -55,7 +55,6 @@ const ModelDetailsPage = () => {
 
     const creator = users.find((u) => u.id === model.created_by);
 
-    //Quesrion logic
     const [question, setQuestion] = useState("");
     const [loadingAnswer, setLoadingAnswer] = useState(false);
     const [canEvaluate, setCanEvaluate] = useState(false)

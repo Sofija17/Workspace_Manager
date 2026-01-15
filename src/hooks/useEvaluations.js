@@ -2,7 +2,6 @@ import React, {useCallback, useEffect, useState} from 'react';
 import evaluationsRepository from "../repository/evaluationsRepository.js";
 
 
-
 const initialState = {
     evaluation: null,
     loading: true,

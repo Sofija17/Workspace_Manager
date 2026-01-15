@@ -1,14 +1,7 @@
 import React from 'react';
-import {
-    Box,
-    Typography,
-    IconButton,
-    Button,
-    Stack,
-    Divider
-} from '@mui/material';
+import {Box, Button, IconButton, Stack, Typography} from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useNavigate } from "react-router";
+import {useNavigate} from "react-router";
 
 const MembersList = ({ memberIds, users, onRemove, reportOn, modelId }) => {
     const navigate = useNavigate();

@@ -1,16 +1,10 @@
-//fake api
+
 import mockData from "../mock/workspaces.json"
-
-//kloniranje na originalniot JSON objekt vo nova promenliva
-//za da mozheme da go menuvame bez da go ostetime, izmenime originalniot fajl
-
 let memoryWorkspaces = [...mockData]
 
-//filter vrkaja niza
 export const fetchWorkspacesByUser = async (userId) => {
     return memoryWorkspaces.filter((ws) => ws.members.includes(userId));
 }
-//find vrakja eden objekt
 export const fetchWorkspaceById = async (workspaceId) => {
     return memoryWorkspaces.find((ws) => ws.id === workspaceId);
 }

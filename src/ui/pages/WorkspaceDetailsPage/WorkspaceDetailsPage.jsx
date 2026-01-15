@@ -1,19 +1,19 @@
 import React, {useState} from 'react';
 import {useParams} from "react-router-dom";
 import {
+    Alert,
     Box,
-    Typography,
-    Grid,
-    Divider,
-    Button,
     Breadcrumbs,
+    Button,
+    Dialog,
+    DialogActions,
+    DialogContent,
+    DialogContentText,
+    DialogTitle,
     Link,
+    Paper,
     Snackbar,
-    Alert, Paper
-
-} from "@mui/material";
-import {
-    Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions
+    Typography
 } from "@mui/material";
 import useWorkspaceDetails from "../../../hooks/useWorkspaceDetails.js";
 import useUsers from "../../../hooks/useUsers.js";
@@ -49,7 +49,6 @@ const WorkspaceDetailsPage = () => {
         setSnackbarOpen(true);
     }
 
-
     const owner = users.find((u) => u.id === workspace.created_by_user_id);
 
     if (loading) {
@@ -72,13 +71,9 @@ const WorkspaceDetailsPage = () => {
         setModelToDelete(modelId)
 
     }
-
-    console.log(models);
-
     return (
 
         <>
-
             <Box sx={{display: "flex", justifyContent: "flex-end"}}>
                 <Button size="small" variant="contained" sx={{mt: 2, mb: -5, backgroundColor: "#6d2e46"}}
                         onClick={() => setAddModelDialogOpen(true)}

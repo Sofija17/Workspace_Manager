@@ -1,17 +1,5 @@
-import React, { useState } from 'react';
-import {
-    Button,
-    Dialog,
-    DialogActions,
-    DialogContent,
-    DialogTitle,
-    TextField,
-    Stack,
-    IconButton,
-    Typography,
-    Divider
-} from "@mui/material";
-import DeleteIcon from '@mui/icons-material/Delete';
+import React, {useState} from 'react';
+import {Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField} from "@mui/material";
 
 const initialFormData = {
     workspace_id: "",

@@ -6,8 +6,9 @@ import {
     DialogContent,
     DialogTitle,
     FormControl,
-    InputLabel, MenuItem, Select,
-    TextField,
+    InputLabel,
+    MenuItem,
+    Select,
 } from "@mui/material";
 import useUsers from "../../../../hooks/useUsers.js";
 import useWorkspaces from "../../../../hooks/useWorkspaces.js";

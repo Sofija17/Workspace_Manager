@@ -113,7 +113,7 @@ const ModelCard = ({model, onDelete}) => {
                     sx={{
                         height: 5,
                         borderRadius: 2,
-                        backgroundColor: '#f0f0f0', // Track color
+                        backgroundColor: '#f0f0f0',
                         '& .MuiLinearProgress-bar': {
                             backgroundColor: '#a26769', // Progress bar color
                         },
@@ -128,11 +128,11 @@ const ModelCard = ({model, onDelete}) => {
                     variant="outlined"
                     onClick={() => navigate(`/models/${model.id}`)}
                     sx={{
-                        borderColor: "#6d2e46",          // outline border
-                        color: "#6d2e46",                // text color
+                        borderColor: "#6d2e46",
+                        color: "#6d2e46",
                         '&:hover': {
                             borderColor: "#a26769",
-                            backgroundColor: 'rgba(162, 103, 105, 0.1)', // matching hover tint
+                            backgroundColor: 'rgba(162, 103, 105, 0.1)',
                         },
                     }}
 

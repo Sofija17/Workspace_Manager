@@ -3,12 +3,10 @@ import mockData from "../mock/models.json"
 
 let memoryModels = [...mockData]
 
-//Da vrakja modeli spored workspace
 export const fetchModelsByWorkspace = async (workspaceId) => {
     return memoryModels.filter((model) => model.workspace_id === workspaceId);
 };
 
-//models/id
 export const fetchModelById = async (modelId) => {
     return memoryModels.filter((model) => model.id === modelId);
 }
