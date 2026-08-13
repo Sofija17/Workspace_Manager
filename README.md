@@ -4,10 +4,11 @@ EvalSpace is a React-based web application for organizing and evaluating machine
 
 The application uses mock JSON data and simulated model responses and follows a layered frontend architecture, separating UI components, hooks, repository logic, API abstraction, and mock data. This structure keeps the codebase modular, maintainable, and ready for future integration with a real backend or machine learning service.
 
-# Technologies & Libraries
+## Technologies & Libraries
 
-React
-Vite
-Material UI
-Recharts
-Plotly.js
+- React
+- Vite
+- Material UI
+- React Router
+- Recharts
+- Plotly.js
