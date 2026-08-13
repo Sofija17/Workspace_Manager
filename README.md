@@ -1,12 +1,13 @@
-# React + Vite
+# EvalSpace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EvalSpace is a React-based web application for organizing and evaluating machine learning models across domain-specific workspaces. Each workspace can represent a different field, such as medicine, education, or acting, and contains its own models, contributors, evaluations, and performance statistics. Users can interact with models, rate their responses across multiple evaluation criteria, and analyze model performance through charts and comparative statistics.
 
-Currently, two official plugins are available:
+The application uses mock JSON data and simulated model responses and follows a layered frontend architecture, separating UI components, hooks, repository logic, API abstraction, and mock data. This structure keeps the codebase modular, maintainable, and ready for future integration with a real backend or machine learning service.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies & Libraries
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React
+Vite
+Material UI
+Recharts
+Plotly.js
